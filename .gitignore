@@ -1,0 +1,36 @@
+# Backend
+**/target/
+*.class
+*.jar
+*.war
+
+# Frontend
+**/node_modules/
+**/dist/
+**/build/
+**/.vite/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Local application configuration
+application-local.properties
+application-secret.properties
+
+# Database backups and exports
+*.sql
+*.sql.gz
+*.dump
+*.bak
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
